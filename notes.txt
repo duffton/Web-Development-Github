@@ -1,0 +1,6 @@
+git init - initialises git setup.
+git add . - adds all of project folder to repository, use this initially, then for any changes.
+git commit -m "first commit" - adds changes to new version with text in string as note on the commit.
+git status - shows files in staging area for commit.
+git add file1.txt - adds specific file to staging area.
+git log - shows commmits that have been made.
