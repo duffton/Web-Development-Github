@@ -1,0 +1,55 @@
+// initialises git setup.
+git init
+
+// adds all of project folder to repository, use this initially, then for any changes.
+git add .
+
+// adds changes to new version with text in string as note on the commit.
+git commit -m "first commit"
+
+// shows files in staging area for commit.
+git status
+
+// adds specific file to staging area.
+git add file1.txt
+
+// shows commmits that have been made.
+git log
+
+// shows the difference between the file in the working directory and the local repository.
+git diff file3.txt
+
+// restores the file in the working directory from the file in the local repository.
+git checkout file3.txt
+
+// sets up existing local repository to github.
+git remote add origin https://github.com/duffton/Web-Development-Github.git
+git push -u origin master
+
+// pushes local repository to Github
+git push origin master -u
+
+// creates area that ignores files and doesn't commit to repository, add files on each line that are to be ignored, can use *.ext for all files with a specific extension, or # for comments.
+touch .gitignore
+
+// removes everything from staging area
+git restore --staged .
+
+// pulls files from remote repository into working directory, add url of the repository to clone after the command.
+git clone
+
+// creates a branch.
+git branch branchName
+
+// checks which branches there are.
+git branches
+
+// changes branch being worked on.
+git checkout branchName
+
+// merges changes from branch into master, need to be in master branch to do this.
+git merge branchName
+
+
+// github repository address.
+https://github.com/duffton/Web-Development-Github.git
