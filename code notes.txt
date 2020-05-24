@@ -35,7 +35,17 @@ git restore --staged .
 // merges changes from branch into master, need to be in master branch to do this.
 git merge branchName
 
+// pulls files from remote repository into working directory, add url of the repository to clone after the command.
+git clone
 
+// creates a branch.
+git branch branchName
+
+// checks which branches there are.
+git branches
+
+// changes branch being worked on.
+git checkout branchName
 
 // github repository address.
 https://github.com/duffton/Web-Development-Github.git
