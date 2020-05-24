@@ -32,6 +32,10 @@ touch .gitignore
 // removes everything from staging area
 git restore --staged .
 
+// merges changes from branch into master, need to be in master branch to do this.
+git merge branchName
+
+
 
 // github repository address.
 https://github.com/duffton/Web-Development-Github.git
