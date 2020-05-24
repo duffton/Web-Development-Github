@@ -32,6 +32,17 @@ touch .gitignore
 // removes everything from staging area
 git restore --staged .
 
+// pulls files from remote repository into working directory, add url of the repository to clone after the command.
+git clone
+
+// creates a branch.
+git branch branchName
+
+// checks which branches there are.
+git branches
+
+// changes branch being worked on.
+git checkout branchName
 
 // github repository address.
 https://github.com/duffton/Web-Development-Github.git
